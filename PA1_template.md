@@ -47,7 +47,7 @@
                                    xlab="Steps Total", 
                                    ylab="Frequency"))
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](figure/unnamed-chunk-3-1.png)
 
 -   Calculate and report the mean and median of the total number of
     steps taken per day
@@ -78,7 +78,7 @@
                             ylab="Avg Number of Steps",
                             cex.axis=0.75))
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](figure/unnamed-chunk-5-1.png)
 
     #The 5-minute interval that, on average, contains the maximum number of steps
     maxInterval<-AvgStepsData$interval[AvgStepsData$avg_daily==max(AvgStepsData$avg_daily)]
@@ -139,7 +139,7 @@
                               xlab="Steps Total", 
                               ylab="Frequency"))
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](figure/unnamed-chunk-9-1.png)
 
     #Mean and median total number of steps taken per day
     StatsStepsPerDay2<- DailyStepsData_noNA %>% 
@@ -185,6 +185,5 @@
       labs(title="Avergae number of steps taken per 5-minute interval", 
            x="Interval", y="Avergae Number of Steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![](figure/unnamed-chunk-11-1.png)
 <br />
-fig.path='figure/' 
