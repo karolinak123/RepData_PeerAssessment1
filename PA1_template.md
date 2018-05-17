@@ -27,7 +27,7 @@
 
         activityData<-read.csv("C:/Users/kkosins/Desktop/Coursera Data Science/Data Science Reporting in R/Project 1/activity.csv", header = TRUE)
 
-1.  What is mean total number of steps taken per day? <br /> For this
+2.  What is mean total number of steps taken per day? <br /> For this
     part of the assignment, the missing values in the dataset are
     ignored.
 
@@ -60,7 +60,7 @@
 -   **Mean of the total number of steps taken per day is 9354.**
 -   **Median of the total number of steps taken per day is 10395.**
 
-1.  What is the average daily activity pattern? <br />
+3.  What is the average daily activity pattern? <br />
 
 -   Time series plot of the 5-minute interval (x-axis) and the average
     number of steps taken, averaged across all days (y-axis)
@@ -86,7 +86,7 @@
 -   835 is 5-minute interval, on average across all the days in the
     dataset, contains the maximum number of steps. <br />
 
-1.  Imputing missing values <br />
+4.  Imputing missing values <br />
 
 -   Calculate and report the total number of missing values in the
     dataset
@@ -153,7 +153,7 @@
     so ultimately those values changed comapring to the values from the
     first part of the assignment.** <br />
 
-1.  Are there differences in activity patterns between weekdays and
+5.  Are there differences in activity patterns between weekdays and
     weekends?
 
 -   Create a new factor variable in the dataset with two levels -
